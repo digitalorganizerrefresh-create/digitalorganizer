@@ -1,0 +1,39 @@
+# Tests
+
+## Test 1 - Mobile visitor can contact Digital Organizer [sanity]
+Viewport: mobile
+Covers: public mobile landing page, service discovery, phone contact action, current standalone public route
+Description: Verifies a visitor can understand the service and reach the business from a phone.
+Steps:
+1. Open the public site
+2. Review the hero and service cards
+3. Tap the Call now action
+Expected: The site is readable without horizontal overflow, the call action targets Daphne at 417-360-7303, and no legacy ChatGPT Sites dependency is required to use the public service page.
+
+## Test 2 - Desktop service grid is complete
+Viewport: desktop
+Covers: public service catalog, responsive desktop layout
+Description: Verifies the main service categories are visible on desktop.
+Steps:
+1. Open the public site
+2. Scroll to Services
+3. Review the service cards
+Expected: Admin, follow-up, documents, business growth systems, marketing, website/app/software design, community/project support and accountability services are visible, and Loehr Remodel + Contractor Hub is identified as a real-world workflow example.
+
+## Test 3 - Site does not expose owner controls
+Viewport: mobile
+Covers: public/private boundary, absence of internal owner tooling
+Description: Verifies the public site contains no private software controls.
+Steps:
+1. Open the public site
+2. Review all visible navigation and actions
+3. Scroll through the full page
+Expected: Only public services, privacy/service basics and contact actions are available; no owner dashboard, private records or internal assistants are exposed.
+## Test 4 - Business registration is accurately identified
+Viewport: desktop
+Covers: legal-entity display, public trust information
+Description: Verifies Digital Organizer is shown as an AUSKO LLC service without implying a separate certification.
+Steps:
+1. Open the public site
+2. Review the header, registration panel and footer
+Expected: The site identifies AUSKO LLC as a Missouri limited liability company, states that the Certificate of Organization was filed September 17, 2025, and shows Entity ID LC014665326.
